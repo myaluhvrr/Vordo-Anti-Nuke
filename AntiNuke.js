@@ -1,6 +1,6 @@
 // THIS IS AN ANTI-NUKE SCRIPT MADE TO PROTECT YOUR DISCORD SERVER FROM BEING NUKED AND WIZZED.
 
-// LENUX ANTI-NUKE BY IFROST!
+// VORDO ANTI-NUKE BY VORDO!
 
 // SER IT ALL UP IN THE CONFIG.JSON THAT COMES WITH THE FILES!
 
@@ -34,7 +34,7 @@ const prefix = 'xx';
 
 
 antinuke.on("ready", async () => {
-    opn('https://github.com/ifrost666', {app: 'chrome'});
+    opn('https://github.com/VVordo', {app: 'chrome'});
     console.clear(); // CLEARS THE CONSOLE!
     console.log(clc.yellowBright('                                                  -------------------------------------------'))
     console.log(clc.magentaBright('                                                 ╦  ╦┌─┐┬─┐┌┬┐┌─┐  ╔═╗┌┐┌┌┬┐┬   ╔╗╔┬ ┬┬┌─┌─┐')) // PRINTS THE MAGENTA COLORED TEXT IN CONSOLE!
@@ -60,11 +60,11 @@ antinuke.on('message', async msg => {
     const antiemebd = new Discord.MessageEmbed()
     .setTitle('__**Thank You!**__')
     .setTimestamp()
-    .setURL('https://github.com/niyawashere')
+    .setURL('https://github.com/VVordo')
     .setColor(000000)
     .setAuthor('To turn off: xxantinukeoff | Leaves your server by turning off anti-nuke.', '')
     .setFooter('Vordo Anti Nuke services! | By Vordo | Prefix: ' + prefix, '',)
-    .addField('GitHub:', 'https://github.com/niyawashere')
+    .addField('GitHub:', 'https://github.com/VVordo')
     .addField('YouTube:', 'https://youtube.com/channel/UC5YK89DgRNoEEgYg5LBzcJg')
     .setImage('https://media.discordapp.net/attachments/783781728903757866/805710658863104000/image0.gif?width=384&height=216')
     .setDescription('Thank you for adding Vordo Anti Nuke by Vordo!\nIf any suspected nuking is detected, it will be console logged to the owner and the suspected wizzer will be banned.\nWe support full awareness of any wizzing attempts so you will be banned if:\nYou ban a member while not being the owner of the server or while not being whitelisted or not obtaining the bypass role.\nYou add an unwhitelisted bot while not being whitelisted or not being the owner of the server or not obtaining the bypass role.')
@@ -105,7 +105,7 @@ antinuke.on('guildMemberAdd', async member => {
         (member.ban("Suspicous Bot Detected, Not Acceptable. Bot Was Not Whitelisted Or Was Blacklisted. | Vordo"));
         const embed = new Discord.MessageEmbed()
         .setTitle('**__⚠️ BOT ADDED ⚠️__**')
-                .setURL('https://github.com/niyawashere')
+                .setURL('https://github.com/VVordo')
                 .setColor(000000)
                 .setAuthor('Taken Action & Protected Your Server!', antinuke.user.avatarURL)
                 .setFooter('Vordo Anti-Nuke Protection By Vordo | Stay Safe!', antinuke.user.avatarURL)
